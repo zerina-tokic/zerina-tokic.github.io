@@ -38,7 +38,7 @@ function TestimonialSlider() {
           <MainTitle
             title="testimonial"
             description={() => (
-              <p className="barlow-bold text-[48px]">
+              <p className="barlow-bold text-[48px] mb-14">
                 Satisfied <span className="text-[#E61C5D]">travellers</span>{" "}
                 around the world
               </p>
