@@ -40,7 +40,7 @@ function TestimonialCard({
   };
   return (
     <div className="relative min-h-[350px] rounded-2xl border border-[#FAFAFA] shadow-lg bg-white">
-      <div className="absolute top-[-20px] left-60">
+      <div className="absolute top-[-18px] right-6">
         <QuoteDownCircle />
       </div>
       <div className="flex flex-col justify-center items-center mt-9">

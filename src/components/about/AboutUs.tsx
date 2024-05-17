@@ -8,7 +8,7 @@ import InsightList from "../InsightList";
 function AboutUs() {
   return (
     <Container>
-      <div className="flex flex-row justify-between gap-x-28 items-center">
+      <div className="flex flex-col md:flex-row justify-between gap-x-28 items-center">
         <div className="flex-1">
           <MainImageOfPage image={aboutImage} />
         </div>

@@ -8,8 +8,8 @@ import homeImage from "../../assets/main-images-of-page/home-image.png";
 function Home() {
   return (
     <Container>
-      <div className="flex flex-row justify-between gap-x-28 items-center">
-        <div className="flex flex-col flex-[1.2] gap-8">
+      <div className="flex flex-col md:flex-row justify-between gap-x-28 items-center">
+        <div className="flex flex-col flex-[1.2] gap-8 order-last md:order-first">
           <div>
             <MainTitle
               title=""

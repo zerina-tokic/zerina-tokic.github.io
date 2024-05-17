@@ -17,9 +17,9 @@ function AllTours() {
             title=""
             description={() => (
               <p className="barlow-bold text-[48px] text-center">
-                We can do anything we want to
-                <br /> if <span className="text-[#E61C5D]">we stick</span> to it
-                long enough.
+                We can do anything we want to <br className="hidden md:block" />
+                if <span className="text-[#E61C5D]">we stick</span> to it long
+                enough.
               </p>
             )}
           />
@@ -27,7 +27,7 @@ function AllTours() {
         <MotivationMessage motivationMessage="Do what you can, with what you have, where you are." />
         <Button title="See all tours" type="primary" />
       </div>
-      <div className="flex flex-row justify-between items-start">
+      <div className="grid grid-cols-2 gap-6 place-items-center mt-10 md:flex md:flex-row md:gap-3 justify-between md:items-start">
         <TourCard
           cardSize="medium"
           cityImage={PortoTour}
@@ -35,24 +35,20 @@ function AllTours() {
           price={150}
           tripDuration="7 days tour"
         />
-        <div className="mt-[113px]">
-          <TourCard
-            cardSize="small"
-            cityImage={ParisTour}
-            cityName="Paris, France"
-            price={100}
-            tripDuration="5 days tour"
-          />
-        </div>
-        <div className="mt-[113px]">
-          <TourCard
-            cardSize="small"
-            cityImage={ParisTour6days}
-            cityName="Paris, France"
-            price={250}
-            tripDuration="6 days tour"
-          />
-        </div>
+        <TourCard
+          cardSize="small"
+          cityImage={ParisTour}
+          cityName="Paris, France"
+          price={100}
+          tripDuration="5 days tour"
+        />
+        <TourCard
+          cardSize="small"
+          cityImage={ParisTour6days}
+          cityName="Paris, France"
+          price={250}
+          tripDuration="6 days tour"
+        />
         <TourCard
           cardSize="medium"
           cityImage={AmsterdamTour}
