@@ -22,4 +22,5 @@ const Button = ({ title, type, customStyles }: ButtonProps) => {
   );
 };
 
+
 export default Button;

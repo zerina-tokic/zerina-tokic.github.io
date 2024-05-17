@@ -8,7 +8,7 @@ function Footer() {
     <footer className=" bg-white py-32">
       <Container>
         <div className="place-content-center">
-          <div className="flex justify-between gap-x-4">
+          <div className="grid grid-cols-2 gap-y-6 md:flex md:flex-row justify-between gap-x-4">
             <ContactBlock />
             <NavLinkItem
               title="About"
