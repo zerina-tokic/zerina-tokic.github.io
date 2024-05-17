@@ -13,7 +13,6 @@ function TourCard({
   price,
   tripDuration,
 }: TourCardProps) {
-  
   const imageWidth = cardSize === "medium" ? "235px" : "190px";
   const fontSizeCityName = cardSize === "medium" ? "md:text-lg" : "md:text-sm";
   const fontSizePrice = cardSize === "medium" ? "md:text-xl" : "md:text-base";
@@ -32,7 +31,7 @@ function TourCard({
       </div>
       <div className=" ">
         <p
-          className={`city text-lg ${fontSizeCityName} barlow-bold text-[#112B3C] text-nowrap mt-2`}
+          className={`city text-lg ${fontSizeCityName} barlow-bold text-[#112B3C] mt-2`}
         >
           {cityName}
         </p>
