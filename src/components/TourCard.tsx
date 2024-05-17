@@ -13,6 +13,7 @@ function TourCard({
   price,
   tripDuration,
 }: TourCardProps) {
+  
   const imageWidth = cardSize === "medium" ? "235px" : "190px";
   const fontSizeCityName = cardSize === "medium" ? "md:text-lg" : "md:text-sm";
   const fontSizePrice = cardSize === "medium" ? "md:text-xl" : "md:text-base";
